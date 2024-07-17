@@ -1,0 +1,21 @@
+@media screen and (max-width: 576px) {
+    
+    .shared-display {
+        flex-direction: column;
+    }
+
+    .nav-bar {
+        padding: 3.25rem 1.25rem 0rem 1.25rem;
+    }
+
+    .nav-item {
+        display: none;
+    }
+
+    .nav-content ul i {
+        display: block;
+        font-size: 1.5rem;
+        color: var(--white-color);
+    }
+
+} 
