@@ -8,11 +8,15 @@
         padding: 3.25rem 1.25rem 0rem 1.25rem;
     }
 
+    .nav-content button {
+        display: none;
+    }
+
     .nav-item {
         display: none;
     }
 
-    .nav-content ul i {
+    .nav-content i {
         display: block;
         font-size: 1.5rem;
         color: var(--white-color);
