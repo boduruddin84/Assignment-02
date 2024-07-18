@@ -114,5 +114,28 @@
         letter-spacing: 0.3px;
     }
     /* Change Your Habits section end */
+    /* Run extra section start */
+    .run-extra-container {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 4rem;
+    }
+
+    .run-extra-content h2 {
+        font-size: 2rem;
+        width: 80%;
+    }
+
+    .run-extra-content p {
+        width: 80%;
+    }
+
+    .run-extra-img img {
+        display: block;
+        width: 80%;
+        margin: 0 auto;
+        margin-bottom: 1.5rem;
+    }
+    /* Run extra section end */
 
 } 

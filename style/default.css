@@ -36,4 +36,6 @@ body {
     color: var(--white-color);
     background-color: var(--button-color);
     border: none;
+    border-radius: 42px;
+    padding: 1rem 2.25rem;
 }

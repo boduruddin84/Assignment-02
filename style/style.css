@@ -87,11 +87,6 @@ header {
     font-size: 5rem;                           
 }
 
-.banner-left button {
-    border-radius: 42px;
-    padding: 1rem 2.25rem;
-}
-
 #download-btn {
     box-sizing: border-box;
     border: 1px solid rgb(255, 255, 255);
@@ -215,3 +210,35 @@ header {
     margin: 0 auto;
 }
 /* Change Your Habits section end */
+/* Run extra section start */
+.run-extra-container {
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 6.25rem;
+    background-color: #222222;
+    border-radius: 18px;
+}
+
+.run-extra-content {
+    padding: 2.5rem 0rem 2.5rem 3.4rem;
+}
+
+.run-extra-content h2 {
+    width: 25rem;
+}
+
+.run-extra-content p {
+    width: 25rem;
+    margin: 0.85rem 0rem 2.1rem 0rem;
+}
+
+.run-extra-img img {
+    width: 23rem;
+    height: 19.5rem;
+    margin: 2.5rem 2rem 2rem 0rem;
+    border-radius: 18px;
+    text-align: center;
+}
+/* Run extra section end */
