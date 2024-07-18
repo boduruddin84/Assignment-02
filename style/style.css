@@ -170,3 +170,48 @@ header {
     padding: 0rem 1.4rem 1.25rem 0.5rem;
 }
 /* Banner section end */
+/* Change Your Habits section start */
+.change-habits-container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.change-habits-heading {
+    width: 50%;
+    margin: 0 auto;
+    padding: 6.25rem 0rem 3.4rem 0rem;
+    text-align: center;
+}
+
+.change-habits-heading h2 {
+    padding-bottom: 0.85rem;
+}
+
+.change-habits-items {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.change-habits-item {
+    text-align: center;
+}
+
+.change-habits-item img {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+
+.change-habits-item h4 {
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 1.9rem 0rem 0.35rem 0rem;
+}
+
+.change-habits-item p {
+    width: 15rem;
+    margin: 0 auto;
+}
+/* Change Your Habits section end */

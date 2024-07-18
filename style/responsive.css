@@ -94,5 +94,25 @@
         padding: 0rem 1rem 0.85rem 0.5rem;
     }
     /* Banner section end */
+    /* Change Your Habits section start */
+    .change-habits-items {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 2.5rem;
+    }
+
+    .change-habits-heading {
+        width: 90%;
+        padding-top: 0;
+    }
+
+    .change-habits-heading h2 {
+        font-size: 2rem;
+    }
+
+    .change-habits-heading p {
+        line-height: 24px;
+        letter-spacing: 0.3px;
+    }
+    /* Change Your Habits section end */
 
 } 

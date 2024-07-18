@@ -10,11 +10,19 @@ body {
     font-family: "Inter", sans-serif;
 }
 
+.main-container {
+    background-color: var(--black-color);
+}
+
 .text-heading {
+    font-size: 3rem;
+    font-weight: 900;
     color: var(--white-color);
 }
 
 .text-description {
+    font-size: 0.88rem;
+    font-weight: 400;
     color: var(--description-color);
 }
 
