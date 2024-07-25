@@ -137,5 +137,30 @@
         margin-bottom: 1.5rem;
     }
     /* Run extra section end */
+    /* BMI calculator section start */
+    .bmi-calculator-heading {
+        width: 90%;
+        margin: 0 auto;
+        padding: 1.5rem 0rem;
+    }
+
+    .bmi-calculator-heading h2 {
+        font-size: 2.5rem;
+    }
+
+    .bmi-calculator-container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .bmi-calculator-table {
+        width: 100%;
+    }
+
+    .calculate-bmi-container {
+        width: 100%;
+    }
+    
+    /* BMI calculator section end */
 
 } 

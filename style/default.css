@@ -11,6 +11,7 @@ body {
 }
 
 .main-container {
+    width: 100%;
     background-color: var(--black-color);
 }
 
@@ -30,6 +31,20 @@ body {
     display: flex;
 }
 
+.input {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--input-text-color);
+    padding: 0.75rem 2.5rem 0.75rem 1.25rem;
+    background-color: var(--input-color);
+    border: none;
+    border-radius: 8px;
+}
+
+::placeholder {
+    color: var(--input-text-color);
+}
+
 .shared-button {
     font-size: 1.5rem;
     font-weight: 600;
@@ -38,4 +53,5 @@ body {
     border: none;
     border-radius: 42px;
     padding: 1rem 2.25rem;
+    cursor: pointer;
 }

@@ -3,4 +3,7 @@
     --white-color: #FFFFFF;
     --description-color: rgba(255, 255, 255, 0.4);
     --black-color: #000000;
+    --background-color: #222222;
+    --input-color: #393939;
+    --input-text-color: rgba(255, 255, 255, 0.6);
 }
