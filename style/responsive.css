@@ -182,6 +182,10 @@
         width: 80%;
         grid-template-columns: repeat(1, 1fr);
     }
+
+    .hide {
+        display: none;
+    }
     /* Meet Our Team section end */
 
 } 
