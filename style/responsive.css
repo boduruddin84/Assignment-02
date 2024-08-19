@@ -160,7 +160,28 @@
     .calculate-bmi-container {
         width: 100%;
     }
+
+    .calculate {
+        margin-bottom: 2.5rem;
+    }
     
     /* BMI calculator section end */
+    /* BENEFITS section start */
+
+    /* BENEFITS section end */
+    /* Meet Our Team section start */
+    .our-team-heading {
+        width: 65%;
+    }
+
+    .our-team-heading h2 {
+        font-size: 2rem;
+    }
+
+    .our-team-members {
+        width: 80%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    /* Meet Our Team section end */
 
 } 

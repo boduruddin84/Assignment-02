@@ -159,7 +159,8 @@ header {
 }
 
 #youtube-video h4 {
-    padding: 1.25rem 4rem 0.5rem 0.5rem;
+    padding: 1.25rem 4rem 0.25rem 0.5rem;
+    font-size: 1.5rem;
 }
 
 #youtube-video p {
@@ -268,6 +269,7 @@ header {
 
 .bmi-calculator-table {
     width: 50%;
+    padding-bottom: 8rem;
 }
 
 .bmi-calculator-table h4 {
@@ -302,7 +304,7 @@ header {
 
 .calculate-bmi-container h4 {
     font-size: 1.75rem;
-    padding-top: 3.05rem;
+    margin-top: -3rem;
 }
 
 .calculate-bmi-container p {
@@ -334,4 +336,58 @@ header {
 .activity-factor {
     grid-column: 1 / -1;
 }
+
+.calculate-bmi-container button {
+    margin-top: 1.5rem;
+}
 /* BMI calculator section end */
+/* BENEFITS section start */
+
+/* BENEFITS section end */
+/* Meet Our Team section start */
+.our-team-heading {
+    width: 45%;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5.5rem;
+    margin-bottom: 3.5rem;
+}
+
+.our-team-heading p {
+    margin-top: 0.85rem;
+}
+
+.our-team-members {
+    width: 77%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 1.25rem;
+    padding: 1.25rem;
+    background-color: var(--background-color);
+    border-radius: 18px;
+}
+
+.our-team-member img {
+    width: 20.3rem;
+    height: 17rem;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 18px;
+    display: block;
+    margin: 0 auto;
+}
+
+.our-team-members h4 {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--white-color);
+}
+
+.img-description {
+    position: relative;
+    top: -4rem;
+    left: 2rem;
+    margin-bottom: -2.4rem;
+}
+
+/* Meet Our Team section end */
