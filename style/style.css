@@ -391,3 +391,44 @@ header {
 }
 
 /* Meet Our Team section end */
+/* Benefits section start */
+.benefits {
+    text-align: center;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+
+#benefits-container {
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.benefits-heading {
+    display: flex;
+}
+
+.benefits-heading h4 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: var(--white-color);
+    margin-left: 2rem;
+}
+
+.benefits-item {
+    width: 80%;
+    background-color: var(--background-color);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding: 1.5em;
+    border-radius: 1rem;
+}
+
+.benefits-item p {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+/* Benefits section end */
