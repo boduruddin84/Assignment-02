@@ -188,7 +188,19 @@
     }
     /* Meet Our Team section end */
     /* Benefits section start */
-    
+    .benefits {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    #benefits-container {
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .benefits-item {
+        width: 88%;
+    }
     /* Benefits section end */
 
 } 
