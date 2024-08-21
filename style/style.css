@@ -341,9 +341,6 @@ header {
     margin-top: 1.5rem;
 }
 /* BMI calculator section end */
-/* BENEFITS section start */
-
-/* BENEFITS section end */
 /* Meet Our Team section start */
 .our-team-heading {
     width: 45%;
@@ -392,10 +389,10 @@ header {
 
 /* Meet Our Team section end */
 /* Benefits section start */
-.benefits {
+.benefits-container h2 {
     text-align: center;
     margin-top: 4rem;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 }
 
 #benefits-container {
@@ -403,7 +400,7 @@ header {
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    justify-content: space-between;
+    gap: 3rem;
     margin: 0 auto;
 }
 
@@ -421,8 +418,6 @@ header {
 .benefits-item {
     width: 80%;
     background-color: var(--background-color);
-    margin-top: 2rem;
-    margin-bottom: 1rem;
     padding: 1.5em;
     border-radius: 1rem;
 }
@@ -432,3 +427,54 @@ header {
     margin-bottom: 1rem;
 }
 /* Benefits section end */
+/* Footer section start */
+footer {
+    background-color: var(--background-color);
+}
+
+.footer-main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4rem;
+}
+
+.footer-heading {
+    margin-right: 9rem;
+}
+
+.footer-heading h2 {
+    color: var(--button-color);
+}
+
+.footer-item {
+    width: 33%;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+}
+
+.footer-item h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--white-color);
+    padding-bottom: 1rem;
+}
+
+.footer-item  p{
+    margin-top: 1rem;
+}
+
+hr {
+    border: 1px solid #313131;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 2rem;
+    padding-bottom: 1rem;
+}
+/* Footer section end */

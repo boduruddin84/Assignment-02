@@ -8,11 +8,11 @@
 
 body {
     font-family: "Inter", sans-serif;
+    background-color: var(--black-color);
 }
 
 .main-container {
     width: 100%;
-    background-color: var(--black-color);
 }
 
 .text-heading {

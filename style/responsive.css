@@ -166,9 +166,6 @@
     }
     
     /* BMI calculator section end */
-    /* BENEFITS section start */
-
-    /* BENEFITS section end */
     /* Meet Our Team section start */
     .our-team-heading {
         width: 65%;
@@ -188,7 +185,7 @@
     }
     /* Meet Our Team section end */
     /* Benefits section start */
-    .benefits {
+    .benefits-container h2 {
         font-size: 2rem;
         font-weight: 700;
     }
@@ -202,5 +199,8 @@
         width: 88%;
     }
     /* Benefits section end */
+    /* Footer section start */
+
+    /* Footer section end */
 
 } 
